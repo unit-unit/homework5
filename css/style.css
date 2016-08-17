@@ -1,0 +1,193 @@
+html { 
+background: url('../img/bg.jpg') no-repeat top center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.header{
+	height: 40px;
+	background-color: #069;
+	position: relative;
+	font-family: Helvetica;
+	font-size: 14px;
+	line-height: 28px;
+}
+.menu{
+	float: right;
+	margin-right: 30px;
+}
+.menu li{
+	display: inline-block;
+}
+.leftBlock a{
+	text-decoration: none;
+	color: #69c;
+	font-family: Helvetica;
+	padding: 6px;
+	display: inline-block;
+}
+.leftBlock:hover a{
+background-color: #09c;
+color: #fff;
+}
+.flag{
+	padding-right: 6px;
+}
+.flag a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 6px;
+}
+.pictureFlag{
+	border-left: 1px solid #09c;
+	padding-left: 12px;
+	display: inline-block;	
+}
+.rightBlock{
+	background-color: #09c;
+	padding: 6px 12px;
+	color: #fff;
+}
+.rightBlock a{
+    color: #fff;
+    padding: 3px;
+}
+.mainContainer{
+	clear: both;
+	margin: 217px auto;
+	width: 560px;
+}
+.hat{
+	position: relative;
+	margin: 0 auto;
+	width: 560px;
+	height: 55px;
+	background: rgba(40, 40, 40, 0.6);
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	line-height: 55px;
+	font-family: Helvetica;
+}
+.register{
+	position: relative;
+ height: 550px;
+ width: 560px;
+ background: rgba(40, 40, 40, 0.6);
+ text-align: center;
+ margin-top: 2px;
+}
+.logInFB{
+	position: relative;
+	color: #fff;
+   top: 40px;
+   left: 140px;
+   width: 275px;
+   height: 35px;
+   background-color: #369;
+   border-radius: 4px;
+   line-height: 35px;
+   font-family: Helvetica;
+   font-size: 14px;
+}
+.logInFB img{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	border-right: 1px solid #036;
+	height: 26px;
+	float: left;
+}
+.logInFB span{
+	font-weight: bold;
+}
+.logInFB a{
+	color: #fff;
+	text-decoration: none;
+}
+.line{
+	text-align: center;
+	padding-top: 75px;
+	color: #999;
+	font-family: Helvetica;
+}
+.line:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 1px;
+    vertical-align: middle;
+    background: #000;
+    background-clip: content-box;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.line:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 1px;
+    vertical-align: middle;
+    background: #000;
+    background-clip: content-box;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+input {
+    display: inline-block;
+    width: 235px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    line-height: 35px;
+    background: #0f0f0f;
+    border: none;
+    border-bottom: 1px solid #484847;
+    color: #ffffff;
+}
+.form{
+	/*position: relative;*/
+	padding: 50px 135px;
+	color: #999;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+input[type="checkbox"] {
+    clear: both;
+    display: relative;
+    width: 13px;
+}
+input:hover{
+	background: #1b5288;
+}
+
+.button{
+	background-color: #369;
+	font-weight: 700;
+	width: 150px;
+	border-radius: 3px;
+}
+.form p{
+	font-size: 11px;
+	font-family: Helvetica;
+}
